@@ -15,3 +15,9 @@ echo Appending >> myFile.txt
 ```bash
 grep Over < myFile.txt
 ```
+
+- You can prepend these with a number to change the file descriptor they read from/write to.
+
+```bash
+cat notReal.txt 2> errors.log
+```
