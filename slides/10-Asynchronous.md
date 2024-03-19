@@ -12,3 +12,5 @@ sudo apt update &
 APT_PID="$!"
 echo "$APT_PID"
 ```
+
+- You can view background processes with `jobs` and bring them to the foreground with `fg`
